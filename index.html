@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resquest website</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        #helllo{
+            text-align: center;
+        }
+        button{
+            cursor: pointer;
+        }
+        img{
+            width: 250px;
+            box-shadow: 10px 10px 20px;
+        }
+        body{
+            background-color:  rgb(254, 255, 184);
+        }
+        /* #ed{
+            text-align: center;
+        }
+        #newli{
+            display: block;
+        } */
+
+    </style>
+</head>
+<body>
+    <div id="helllo">
+     <h1>Dad jokes generator</h1>
+     <img src="https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg" alt="your dad">
+     <div id="ed">
+      <button id="click">Generate</button>
+      <button onclick="window.location.reload();">Reset !</button>
+     </div>
+     <!-- <ul id="newli"></ul> -->
+    </div>
+    <ul id="newli"></ul>
+    <script src="app.js"></script>
+</body>
+</html>
